@@ -14,6 +14,6 @@ Crucially, predictive uncertainty $U$ is normalized against **fixed in-domain re
 
 ## Repository Setup
 ```bash
-git clone [https://github.com/](https://github.com/)<your-username>/trustworthy-swin-neu.git
+git clone [https://github.com/](https://github.com/)<priyambanerjee1>/trustworthy-swin-neu.git
 cd trustworthy-swin-neu
 pip install -r requirements.txt

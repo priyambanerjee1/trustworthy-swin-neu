@@ -1,0 +1,6 @@
+Configuration,Mechanisms,Coverage (%),Selective Acc (%),Review,Reject
+A1: Swin Baseline,Raw Logits Argmax,100.00%,100.00%,0,0
+A2: Swin + Confidence,Softmax Confidence (tau=0.90),100.00%,100.00%,0,0
+A3: Swin + Calibration,"Temp. Scaling (T=1.499, tau=0.90)",100.00%,100.00%,0,0
+A4: Swin + Uncertainty,MC Dropout (1 - U_norm >= 0.90),94.17%,100.00%,0,21
+A5: Full Framework (Proposed),Trust Score T (Accept/Review/Reject),93.89%,100.00%,20,2
